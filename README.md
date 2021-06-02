@@ -2,7 +2,7 @@
 
 The purpose of this Repo is to learn-by-doing Django, as well as to build my own MyBlog.
 
-This Repo might be merged with [Twitchain](https://github.com/BattleWoLFz99/Twitchain)</br> Repo.
+This Repo might be merged with [Twitchain](https://github.com/BattleWoLFz99/Twitchain) Repo.
 
 
 
