@@ -1,1 +1,2 @@
-.vscode
+.idea/
+my_site/__pycache__/
