@@ -14,7 +14,7 @@ My Blog
 <section id="welcome">
   <header>
     <img src="{% static "blog/images/bat.png" %}" alt="BattleWoLFz - The Author Of This Blog" />
-    <h2>BattleWoLFz's Blog</h2>
+    <h2>BattleWoLFz'S Blog</h2>
   </header>
   <p>Hi, I am BattleWoLFz and I love to blog about my CS journey</p>
 </section>
@@ -23,7 +23,9 @@ My Blog
   <h2>My Latest Thoughts</h2>
 
   <ul>
-    {% include "blog/includes/post.html" %}
+    {% for post in posts %}
+      {% include "blog/includes/post.html" %}
+    {% endfor %}
   </ul>
 </section>
 
