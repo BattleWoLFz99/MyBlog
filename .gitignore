@@ -1,2 +1,3 @@
 .idea/
-my_site/__pycache__/
+ __pycache__/
+ *.pyc
